@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+  <h:head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="#{facesContext.externalContext.requestContextPath}/resources/stylesheets/voodoo.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="#{facesContext.externalContext.requestContextPath}/resources/stylesheets/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" href="#{facesContext.externalContext.requestContextPath}/resources/stylesheets/handheld.css" media="handheld" />
+    <title><h:outputText value="EngeSoft :: " /><ui:insert name="title" /></title>
+  </h:head>
+
+  <h:body>
+		<div class="top"></div>
+		<div class="page_wrap clearfix">
+			<div class="header">
+				<div class="header_block">
+					<div class="logo"><img alt="logo" src="#{facesContext.externalContext.requestContextPath}/resources/images/pc_logo.jpg" /></div>
+					<h1>SIG-EngeSoft</h1>
+					Sistema de Informação Gerencial da Revista EngeSoft </div>
+			</div>
+			<div class="navbar" id="nav">
+				<ul>
+					<li><a href="#">Link 1</a></li>
+					<li><a href="#">Link 2</a></li>
+					<li><a href="#">Etc...</a></li>
+				</ul>
+			</div>
+			<div class="container clearfix">
+				<div class="left_column">
+					<h3>Info</h3>
+					<p>...</p>
+				</div>
+				<div class="center_column">
+					<ui:insert name="content">Conteúdo não especificado...</ui:insert>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="footer_logo"><img alt="logo" src="#{facesContext.externalContext.requestContextPath}/resources/images/footer_logo.jpg" /></div>
+				<span id="footer">Copyright, 2011 <a href="http://www.devmedia.com.br" target="_blank">DevMedia</a> &nbsp;&#8226;&nbsp; 
+					Design by <a href="http://www.dbfnetwork.info/rayk/index.html">pogy366</a> for
+					OSWD &nbsp;&#8226;&nbsp; <a href="http://validator.w3.org/check?uri=referer">Valid
+						XHTML</a> &nbsp;&#8226;&nbsp; <a href="http://jigsaw.w3.org/css-validator/">Valid
+						CSS</a></span> </div>
+		</div>
+		<div class="bottom"></div>
+  </h:body>
+</html>

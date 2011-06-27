@@ -1,0 +1,5 @@
+Uma série de artigos chamada "Além da IDE", iniciada na Java Magazine 92, fala de ferramentas de desenvolvimento que podem complementar a IDE para a montagem de um ambiente completo de desenvolvimento.
+
+Como exemplo, foi criado o projeto EngeSoft, um sistema de gerenciamento de uma revista acadêmica sobre Engenharia de Software.
+
+O projeto no Github foi criado para demonstrar o uso do Git, ferramenta de controle de versão.
